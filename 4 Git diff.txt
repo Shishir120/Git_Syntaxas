@@ -1,0 +1,11 @@
+git diff -------> Compares staging area with working directory.
+
+Eg:
+hamile suruma euta file (say shishir.txt) lai git add . garera staging area ma
+rakheu, tespaxi tyo file ma hamile kei kura thapeu, ani git diff thickeu 
+bhane tesle staging area ma bhako (shishir.txt) ra hamile data thapeko shishir.
+txt lai compare gardinxa. Staging area ma huda k data thyo ra paxi hamile modify
+garera k rakhyo tyo kura bhandinxa.
+
+
+git diff --staged -------> Compares previously committed file with staging area.

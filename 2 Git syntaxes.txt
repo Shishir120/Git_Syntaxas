@@ -1,0 +1,68 @@
+git config --global user.name "Shishir"   ----> Gives name to git
+
+git config --global user.email "email@gmail.com"  -----> Gives email to git
+
+git status ----> to check the status.(Whether we have a git repository or not) 
+		(Also checks whether we have commited or not)
+		(Also whether we have made any changes or not)
+
+git init -----> to initialize a git. (Never use it when already used once)
+
+git add --a    ------>  It adds all the files to staging phase. OR lets say git now tracks
+			the files in the folder. 
+			(They are ready to be committed)
+
+git commit -m  "add message" ------> It commits all the files 
+				     (Meaning it saves a snapshot or say photo)
+
+git log --------> to display all the commits we have done.
+
+
+git add first.txt    -------> It stages first.txt file only not others
+git commit -m "add message" -------> Now it commits only first.txt
+				     (Bcz we have only staged first.txt)
+
+git rm shishir.txt ------> Removes the file
+
+git rm --cached shishir.txt ------> It will now not track shishir.txt
+
+rm -rf .git ------> Deletes the git repository
+
+git clone https://github.com/tensorflow/tensorflow.git folder_Name
+	  (This is a URL from where we receive or pull the repository.) 
+	  (We can use other URLs too, this is just an example)
+
+LINUX Commands:
+pwd ----> Present Working Directory.(It displays which directory we are in)
+
+ls -----> It lists the content whatever there is in folder.
+
+cd filename/ ------> It changes the directory.
+
+
+q -----> to quit (yedi hamile git log thicheu ra banda garnu paryo sab history haru)
+
+git commit -a -m "/type message here/" -----> It directly commits the tracked file without
+					      going to staging area.
+					      (It does not directly commits untracked file)	
+
+
+git mv shishir.txt shishir_renamed.txt -----> mv is move command. It renames the file and
+					      adds it into staging area.	
+
+
+git commit --amend   ----> Used to amend the commit and the message.
+			   (It opens an editor ;
+			   To use this editor press i to type the message
+		       	   now press escape key and then press colon(:wq)
+			   (Commit is successful) 
+
+
+git checkout -- file_name.txt   ----> It reverses the modified file to the previously 
+				      committed version.
+
+git checkout -f   ----> It reverses "all" the modified file to previously committed
+			version.
+
+Press "shift+insert" in git bash to paste.
+ 

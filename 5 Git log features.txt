@@ -1,0 +1,17 @@
+git log --------> to display all the commits we have done.
+
+git log -p ------> It shows all the commits history as well as the changes done in it. 
+
+git log --stat  -------> It shows all the commits with little statistics about it.
+
+git log --pretty=short -----> It shows all the commits with commits, author and msg.
+
+git log --pretty=full  ------> It shows all commits with author,commit msg and commiter.
+
+git log --since=2.days ----> It shows commits done since 2 days.
+
+git log --since=3.months -----> It shows commits done since 3 months.
+
+git log --pretty=format:"%h --%ae" -----> It shows the commits with hash, double dash(--)
+					  and author name.
+					  (Others explore through website)

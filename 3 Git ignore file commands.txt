@@ -1,0 +1,11 @@
+touch error.log  ------>  Gnerates a file named error.log
+
+touch .gitignore ----> Creates a txt file (hamle yo file bhitra kei file athwa directory
+					   ko naam lekhyo bhane telai git le ignore garxa)
+
+For eg :
+1) touch .gitignore command lekhera hamile euta file banayou.
+2) Yo file kholera hamile tyo file bhitra aru file ko naam lekhna sakxau.
+	(Ani tyo file git le ignore garxa)
+3) directory/Folder lai nai hamile ignore garnu paryo bhane "FOLDER_NAME/" lekhnu parxa.
+					   			

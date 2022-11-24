@@ -1,0 +1,26 @@
+1) Firstly open git bash in the folder.
+
+2) Go to github.com and "+" then new repository,
+   Write name and all,
+   Copy smthg like (git remote add origin https://github.com/Shishir120/Repo_Name.git)
+				   This origin is the name of the remote repository.
+				    Hence can be changed.
+
+3) Write git remote just to check.
+
+TO get access to your git, we need to add the ssh key of device to the github.
+To do this,
+Search ssh keys github,
+It will show some steps, Few of which are;
+	I) Paste ssh-keygen -t rsa -b 4096 -C "Your_Email@gmail.com"
+	   (Then press enter enter)
+	II)Then paste eval "$(ssh-agent -s)"
+	III) Then paste ssh-add ~/.ssh/id_rsa (There might be number in place of rsa, so
+	      replace the number with rsa)
+	IV) Then Write tail and paste ~/.ssh/id_rsa.pub
+(We get a big code starting with ssh-rsa, copy all and paste it in the ssh key section of
+settings in github)
+
+
+4) To push the directory type gitp push -u origin master and done.
+  
