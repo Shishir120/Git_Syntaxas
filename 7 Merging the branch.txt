@@ -1,0 +1,18 @@
+git merge Branch_Name     ------> It merges the sub-branch to master branch.
+
+After this we even need to add and commit ..
+
+git add .   -----> It adds all the files in staging area.
+
+git commit -m "Message_Here"    -----> It commits the file.
+
+
+git branch -v    ------> It shows all the branches with hash and last commit messages.
+
+git branch --merged   -----> It shows all the branches that are already merged.
+
+git branch --no-merged -----> It shows all the branched that are not merged.
+
+git branch -d Branch_Name ----> It deletes the branch.
+				(It gives error/asks for conformation when deleting the
+				 unmerged branch)

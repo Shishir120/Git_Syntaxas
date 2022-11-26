@@ -65,4 +65,31 @@ git checkout -f   ----> It reverses "all" the modified file to previously commit
 			version.
 
 Press "shift+insert" in git bash to paste.
+
+
+					"Alias command"
+git config --global alias.st status  -----> Status ko command hamile st matra type garera 
+					    run garna sakxau. 
+					    (Eg: Yo command run garisake paxi next time
+					     "git st" run garda status dekhauxa.
+
+git restore --staged-- File_name   ----> It unstages the file.
+
+
+
+Branching:
+
+git checkout -b Branch_Name   -----> To create a new branch
+
+git checkout master  ------> To swich to main/master branch
+
+git checkout Branch_Name ------> To switch the master branch to sub branch named
+				 Branch_Name if already created earlier.
+				 (Otherwise we need to create)
+
+
+git branch -----> It shows all the branches that are in the git repository
+
+ 
+
  

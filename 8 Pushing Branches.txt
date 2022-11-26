@@ -1,0 +1,14 @@
+git checkout Branch_Name 
+
+Basically, we need to switch to the branch which we want to push to remote repository.
+
+git push origin Branch_Name  ---->Pushes branch to remote repository.
+ 
+git push origin Branch_Name:Name_which_we_want_to_save_as_in_github.  ----> Pushes the 
+								Branch and save it in
+								github in another name.
+								(Not Recommended)
+
+
+git push -d origin Branch_Name ---->It deletes the branch in github.
+

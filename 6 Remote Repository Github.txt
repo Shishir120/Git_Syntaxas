@@ -22,5 +22,5 @@ It will show some steps, Few of which are;
 settings in github)
 
 
-4) To push the directory type gitp push -u origin master and done.
+4) To push the directory type git push -u origin master and done.
   
