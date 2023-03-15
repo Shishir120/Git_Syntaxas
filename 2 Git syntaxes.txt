@@ -90,6 +90,9 @@ git checkout Branch_Name ------> To switch the master branch to sub branch named
 
 git branch -----> It shows all the branches that are in the git repository
 
+badiya
+
+
  
 
  
